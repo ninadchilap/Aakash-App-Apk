@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+      <LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+     android:layout_centerHorizontal="true"
+    > 
+   <LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    > 
+    <LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    > 
+<ImageButton
+android:id="@+id/proxymity"
+android:layout_width="100px"
+android:adjustViewBounds="true"
+android:background="@drawable/proxymity"
+android:layout_height="100px"
+>
+</ImageButton>
+<TextView 
+android:id="@+id/txt1"
+android:layout_width="wrap_content"
+android:adjustViewBounds="true"
+android:text="proxyMITY"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:textStyle="bold"
+android:ellipsize="marquee"
+            >
+</TextView>
+</LinearLayout>
+<LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="35px"
+    > 
+<ImageButton
+android:id="@+id/clicker"
+android:layout_width="100px"
+android:adjustViewBounds="true"
+android:background="@drawable/clicker"
+android:layout_height="100px"
+>
+</ImageButton>
+<TextView 
+android:id="@+id/txt2"
+android:layout_width="wrap_content"
+android:adjustViewBounds="true"
+android:text="Clicker"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:textStyle="bold"
+android:ellipsize="marquee"
+            >
+</TextView>
+</LinearLayout>
+<LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="35px"
+    > 
+<ImageButton
+android:id="@+id/robot"
+android:layout_width="100px"
+android:adjustViewBounds="true"
+android:background="@drawable/robot"
+android:layout_height="100px"
+>
+</ImageButton>
+<TextView 
+android:id="@+id/Robot"
+android:layout_width="wrap_content"
+android:adjustViewBounds="true"
+android:text="Robot"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:textStyle="bold"
+android:ellipsize="marquee"
+            >
+</TextView>
+</LinearLayout>
+<LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="35px"
+    > 
+<ImageButton
+android:id="@+id/wifi"
+android:layout_width="100px"
+android:adjustViewBounds="true"
+android:background="@drawable/proxymity"
+android:layout_height="100px"
+>
+</ImageButton>
+<TextView 
+android:id="@+id/txt1"
+android:layout_width="wrap_content"
+android:adjustViewBounds="true"
+android:text="proxyMITY-WiFi"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:textStyle="bold"
+android:singleLine="true"
+android:ellipsize="marquee"
+            >
+</TextView>
+</LinearLayout>
+</LinearLayout>
+<LinearLayout 
+    android:layout_marginTop="10dp"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    > 
+    
+     <LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    > 
+<ImageButton
+android:id="@+id/blender"
+android:layout_width="100px"
+android:adjustViewBounds="true"
+android:background="@drawable/blender_animation_icon"
+android:layout_height="100px"
+android:layout_marginLeft="135dp"
+>
+</ImageButton>
+<TextView 
+
+android:layout_width="100dp"
+android:adjustViewBounds="true"
+android:text="Blender Animation"
+android:layout_height="40dp"
+android:layout_gravity="center_horizontal"
+android:gravity="center"
+android:textStyle="bold"
+android:ellipsize="marquee"
+android:layout_marginLeft="67dp"
+            >
+</TextView>
+</LinearLayout>
+
+      <LinearLayout 
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    > 
+<ImageButton
+android:id="@+id/educational"
+android:layout_width="100px"
+android:adjustViewBounds="true"
+android:background="@drawable/educational_content_icon"
+android:layout_height="100px"
+android:layout_marginLeft="30dp"
+>
+</ImageButton>
+<TextView 
+
+android:layout_width="100dp"
+android:adjustViewBounds="true"
+android:text="Educational Content"
+android:layout_height="40dp"
+android:layout_gravity="center_horizontal"
+android:textStyle="bold"
+android:ellipsize="marquee"
+android:layout_marginLeft="13dp"
+android:gravity="center"
+
+            >
+</TextView>
+</LinearLayout>
+    
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
